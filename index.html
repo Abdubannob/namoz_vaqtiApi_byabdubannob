@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./jQuery.js"></script>
+    <link rel="stylesheet" href="./main.min.css">
+    <!-- <script src="https://yandex.ru/ads/system/context.js" async></script> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <div class="top-header">
+                <div class="container hero">
+                    <img src="./images/ss-removebg-preview.png" alt="logo">
+                    <nav>
+                        <h3 id="home">Menu</h3>
+                            <h3 class="prayer">Ibodat vaqti : </h3>
+
+                        <select name="select" id="select">
+                            <option class="bb" value="none">Tanlash</option>
+                            <option class="bb" value="Daily">Kunlik</option>
+                            <option class="bb" value="Monthly">Oylik</option>
+                        </select>
+                    </nav>
+
+                    <div class="navlink">
+                      <a href="https://www.facebook.com/abdubannob.abduhamidov.1">  <img src="./images/facebook.svg" alt="facebook"></a>
+                        <a href="https://www.instagram.com/"><img src="./images/instagram (1).svg" alt="instagram"></a>
+                        <a href="https://t.me/Abdukhamidov99"><img src="./images/telegram.svg" alt="telegram"></a>
+                        <a href="https://www.youtube.com/"><img src="./images/youtube.svg" alt="youtube"></a>
+                    </div>
+                    <div class="lines">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+                    <div class="extra">
+                        <img id="cancel" src="./current_time_image/icons8-close-48.png" alt="">
+                        <div class="nav" >
+                            <h3 id="homes">Asosiy</h3>
+                            <h3 class="prayer">Ibodat vaqti : </h3>
+    
+                            <select name="select" id="selects">
+                                <option class="bb" value="none">Tanlash</option>
+                                <option class="bb" value="Daily">Kunlik</option>
+                                <option class="bb" value="Monthly">Oylik</option>
+                            </select>
+                        </div>
+    
+                        <div class="navlinks">
+                            <a href="https://www.facebook.com/abdubannob.abduhamidov.1">  <img  class="img-nav" src="./images/facebook.svg" alt="facebook"></a>
+                            <a href="https://www.instagram.com/"><img class="img-nav"  src="./images/instagram (1).svg" alt="instagram"></a>
+                            <a href="https://t.me/Abdukhamidov99"><img class="img-nav"  src="./images/telegram.svg" alt="telegram"></a>
+                            <a href="https://www.youtube.com/"><img  class="img-nav" src="./images/youtube.svg" alt="youtube"></a>
+                        </div>
+                    </div>
+                </div>
+              
+            </div>
+            <div class="bottom-header">
+                <div class="container">
+
+                </div>
+            </div>
+            <div class="ex-bottom">
+
+            </div>
+        </header>
+    </main>
+    <section class="section-operation">
+        <div class="container main">
+            <img class="images" src="./images/alhumdx2.png" alt="Alhamdulillah">
+            <div class="text">
+                <h1>Keep your tongue wet with the remembrance of Allah</h1>
+                <h2>(AL-TIRMIDHI)</h2>
+            </div>
+            <div class="btn">
+                <a href="https://uz.wikipedia.org/wiki/Islom">
+
+                    <button>Learn More</button>
+                </a>
+             
+            </div>
+        </div>
+    </section>
+    <main class="st-opt">
+        <div class="container txt">
+            <div class="left">
+                <div class="top">
+                    <div class="im" id="im" >
+                        <img class="parts" src="./images/part1.PNG" alt="part1">
+                    </div>
+                </div>
+                <div class="bottom" id="btm">
+                    <div class="img">
+                        <img src="./images/part2.PNG" id="one" alt="part2">
+                    </div>
+                    <div class="img">
+                        <img src="./images/part3.PNG" id="two" alt="part2">
+                    </div>
+                    <div class="img">
+                        <img src="./images/part4.PNG" id="three" alt="part2">
+                    </div>
+                </div>
+            </div>
+            <div class="rights">
+                <h1>Welcome To Website</h1>
+                <h3>Islamic Center for Muslims to Achieve Spiritual Goals</h3>
+                <span>
+                    Namaz is broadcast the jaguar far darn dukooka burra before thus and before ipsum dolor sit amet, consectetur adipisicing elit sed eiusmod tempor ncid parrot withdrew less a darn overheard foolish ran forwards.
+                    <br><br>
+                    Labore et dolore magna aliqua enim ad minim veniam quis nostrud exerc eitation nisi ut aliquip ex ea consequat duis aute irure doly reprehenderit.
+                    <br><br>
+                   <span class="sp"> Consectetur adipisicing elit sed eiusmod tempor ncid parrot withdrew less a darn overheard foolish ran forwards. Labore et dolore magna aliqua enim ad minim veniam quis nostrud exerc eitation nisi ut aliquip ex ea consequat duis aute irure doly reprehenderit.</span>
+                    <br><br>
+                </span>
+                <a href="https://uz.wikipedia.org/wiki/Islom">
+                    <button>Ask About Islam</button>
+                </a>
+            </div>
+        </div>
+    </main>
+    <section  class="prayer-times">
+        <div class="times">
+            <div class="current_time">
+                <span>Hozirgi vaqt:  </span>
+                <span id="current_time"></span>
+                    </div>
+            <div id="all" class="alert alert-warning text-center" style="font-size: 23px; font-weight: bold">
+              
+            </div>
+            <div class="ad__container">
+                <!-- <div class="ad__in">
+                   
+                   
+                  <div>
+                    <div class="in" id="hh">
+                        
+                    </div>
+                  </div>
+                 
+                   
+                 
+                </div> -->
+            </div>
+        </div>
+        <!-- <input id="targetDateTime" type="datetime-local">
+        <p id="remainingTime"></p> -->
+       <div class="vt">
+       
+        <h1>Bugungi Namoz Vaqtlari</h1>
+        <!-- <input id="countdown" type="date"> -->
+        <div class="search-items">
+            <div class="search">
+            <input type="text" id="search" placeholder="Qidiruv....." >
+            <button id="searchs">Qidiruv</button>
+           </div>
+           <h4>Yoki</h4>
+           <div class="ext">
+            <h3>Hududni tanlang:</h3>
+                <select name="select" id="selecting">
+                    <option value="andijon">Andijon</option>
+                    <option value="Farg'ona">Farg'ona</option>
+                    <option value="toshkent">Toshkent</option>
+                    <option value="samarqand">Samarqand</option>
+                    <option value="namangan">Namangan</option>
+                    <option value="buxoro">Buxaro</option>
+                    <option value="qarshi">Qarshi</option>
+                    <option value="qo'qon">Qo'qon</option>
+                    <option value="navoiy">Navoiy</option>
+                    <option value="Jizzax">Jizzax</option>
+                    <option value="Xiva">Xiva</option>
+                    <option value="Guliston">Guliston</option>
+                    <option value="Termez">Termez</option>
+                    <option value="denov">Denov</option>
+                    <option value="Oltiariq">Oltiariq</option>
+                    <option value="Marg'ilon">Marg'ilon</option>
+                    <option value="Nukus">Nukus</option>
+                    <option value="osh">O'sh</option>
+                </select>
+           </div>
+
+        </div>
+       </div>
+        <div id="prays"  class="pr">
+
+        </div>
+           <div class="pr-times" id="pray">
+           
+           </div>
+    </section>
+
+
+
+    <section class="carousels">
+        <div class="slider-container">
+
+            <div class="slider-content">
+        
+                <div class="slider-single">
+                    <img id="islamic1"  class="slider-single-image" src="./carousel/p1.PNG" alt="1" />
+                    <h1 class="slider-single-title">Islamic Wallpaper</h1>
+                    <a class="slider-single-likes" href="javascript:void(0);">
+                        <!-- <i class="fa fa-heart"></i> -->
+                        <img class="love" src="./images/icons8-love-48.png" alt="love">
+                        <p>1,247</p>
+                    </a>
+                </div>
+        
+                <div class="slider-single">
+                    <img  id="islamic2" class="slider-single-image" src="./carousel/p2.PNG" alt="2" />
+                    <h1 class="slider-single-title">Islamic Wallpaper</h1>
+                    <a class="slider-single-likes" href="javascript:void(0);">
+                        <img class="love" src="./images/icons8-love-48.png" alt="love">
+                        <p>1,247</p>
+                    </a>
+                </div>
+        
+                <div class="slider-single">
+                    <img  id="islamic3" class="slider-single-image" src="./carousel/p3.PNG" alt="3" />
+                    <h1 class="slider-single-title">Islamic Wallpaper</h1>
+                    <a class="slider-single-likes" href="javascript:void(0);">
+                        <img class="love" src="./images/icons8-love-48.png" alt="love">
+                        <p>1,247</p>
+                    </a>
+                </div>
+        
+        
+                <div class="slider-single">
+                    <img id="islamic4"  class="slider-single-image" src="./carousel/p4.PNG" alt="4" />
+                    <h1 class="slider-single-title">Islamic Wallpaper</h1>
+                    <a class="slider-single-likes" href="javascript:void(0);">
+                        <img class="love" src="./images/icons8-love-48.png" alt="love">
+                        <p>1,247</p>
+                    </a>
+                </div>
+        
+        
+                <div class="slider-single">
+                    <img id="islamic5"  class="slider-single-image" src="./carousel/p5.PNG" alt="5" />
+                    <h1 class="slider-single-title">Islamic Wallpaper</h1>
+                    <a class="slider-single-likes" href="javascript:void(0);">
+                        <img class="love" src="./images/icons8-love-48.png" alt="love">
+                        <p>1,247</p>
+                    </a>
+                </div>
+        
+                <div class="slider-single">
+                    <img  id="islamic6" class="slider-single-image" src="./carousel/p6.PNG" alt="6" />
+                    <h1 class="slider-single-title">Islamic Wallpaper</h1>
+                    <a class="slider-single-likes" href="javascript:void(0);">
+                        <img class="love" src="./images/icons8-love-48.png" alt="love">
+                        <p>1,247</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="monthly">
+        <div class="container month">
+            <div class="oy">
+                <h3>Oyni tanlang</h3>
+                <select name="select" id="month-select">
+                    <option value="1">Yanvar</option>
+                    <option value="2">Fevral</option>
+                    <option value="3">Mart</option>
+                    <option value="4">Aprel</option>
+                    <option value="5">May</option>
+                    <option value="6">Iyun</option>
+                    <option value="7">Iyul</option>
+                    <option value="8">Avgust</option>
+                    <option value="9">Sentabr</option>
+                    <option value="10">Oktabr</option>
+                    <option value="11">Noyabr</option>
+                    <option value="12">Dekabr</option>
+                </select>
+            </div>
+            <div class="months">
+
+            </div>
+
+            <table id="tb" class="table table-striped table-bordered">
+              
+
+            </table>
+        </div>
+    </div>
+
+ 
+    <script src="./namozvaqti.js"></script>
+    <script src="./script.js"></script>
+    <footer class="footer">
+        <div class="container fots ">
+          <div class="fot">
+            <div class="images-foot"></div>
+            <div class="images-foot"></div>
+            <div class="images-foot"></div>
+            <div class="images-foot"></div>
+            <div class="images-foot"></div>
+            <div class="images-foot"></div>
+            <div class="images-foot"></div>
+            <div class="images-foot"></div>
+            <div class="images-foot"></div>
+            <div class="images-foot"></div>
+            <div class="images-foot"></div>
+            <div class="images-foot"></div>
+            <div class="images-foot"></div>
+            <div class="images-foot"></div>
+            <div class="images-foot"></div>
+            <div class="images-foot"></div>
+            <div class="images-foot"></div>
+            <div class="images-foot"></div>
+            <div class="images-foot"></div>
+            <div class="images-foot"></div>
+            <div class="images-foot"></div>
+            <div class="images-foot"></div>
+            <div class="images-foot"></div>
+            <div class="images-foot"></div>
+            <div class="images-foot"></div>
+            <div class="images-foot"></div>
+          </div>
+       
+            <h5>© 2023 All Rights Reserved</h5>
+        </div>
+    </footer>
+
+    <script src="./index.js"></script>
+    <script src="./carousel.js"></script>
+</body>
+
+</html>
